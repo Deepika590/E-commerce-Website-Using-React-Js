@@ -1,0 +1,29 @@
+.descriptionbox{
+    margin: 80px 120px;
+
+}
+.descriptionbox-navigator{
+    display: flex;
+}
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 168px;
+    height: 50px;
+    border: 1px solid #9e9d9d;
+}
+.descriptionbox-nav-box fade{
+    background: #FBFBFB;
+    color: #555;
+}
+.descriptionbox-description{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    border: 1px solid #a19f9f;
+    padding:18px;
+    padding-bottom: 35px;
+}
